@@ -1,6 +1,6 @@
 appname = "websphere-demo"
-cell = "localhostNode01Cell"
-node = "localhostNode01"
+cell = "cell1"
+node = "node1"
 server = "server1"
 
 import time
