@@ -41,5 +41,5 @@ dep = AdminConfig.getid(deployid)
 depObject = AdminConfig.showAttribute(dep, 'deployedObject')
 classldr = AdminConfig.showAttribute(depObject, 'classloader')
 AdminConfig.modify(classldr, [['mode', 'PARENT_LAST']])
-
+AdminApplication.configureWebModulesOfAnApplication(appname, web_moudle, "900", "PARENT_LAST", "", "false")
 AdminConfig.save()
